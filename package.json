@@ -1,12 +1,21 @@
 {
-  "name": "error-kit",
+  "name": "@nurhanna01/error-kit",
   "version": "0.0.1",
-  "description": "",
+  "description": "A lightweight error handling library for Node.js and TypeScript, providing standardized error objects for better error management.",
   "author": "Nur Hanna",
-  "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurhanna01/error-kit"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "nest build",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",

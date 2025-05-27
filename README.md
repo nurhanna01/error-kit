@@ -5,5 +5,5 @@ A lightweight error handling library for Node.js and TypeScript, providing stand
 ## 📦 Installation
 
 ```bash
-npm install error-kit
+npm install @nurhanna01/error-kit
 ```
