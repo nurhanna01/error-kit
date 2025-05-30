@@ -1,4 +1,5 @@
 export { AppError } from './src/app-error';
+export { NestAppErrorFilter } from './src/app-error-filter';
 export { badRequest } from './src/bad-request';
 export { forbidden } from './src/forbidden';
 export { internalServerError } from './src/internal-server-error';
