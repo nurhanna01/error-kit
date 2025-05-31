@@ -10,6 +10,16 @@
     "type": "git",
     "url": "https://github.com/nurhanna01/error-kit"
   },
+  "keywords": [
+    "error",
+    "error-handling",
+    "handling",
+    "custom",
+    "custom-error",
+    "error-kit",
+    "typescript",
+    "nodejs"
+  ],
   "files": [
     "dist"
   ],
