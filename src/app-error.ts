@@ -8,8 +8,7 @@ export class AppError extends Error {
     message: string,
     metadata?: Record<string, any>,
   ) {
-    super();
-    this.message = message;
+    super(message);
     this.statusCode = statusCode;
     this.name = error;
     this.error = error;
